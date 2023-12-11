@@ -775,6 +775,9 @@ footer {
 }
 @media all and  (max-width: 290px) {
 	.notes {
+		height: 170vh;
+	}
+	.mock {
 		height: 150vh;
 	}
 }
