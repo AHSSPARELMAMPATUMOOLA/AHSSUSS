@@ -88,6 +88,8 @@ header nav ul  li a:hover {
     color: #0057ff;
    padding-top: 75px;
    animation: animation 1s ;
+  
+
 }
 .home .wrapper p{
     font-size: 32px;
@@ -256,6 +258,9 @@ footer {
 
 
 @media all and  (max-width: 1350px) {
+	body {
+		width: 100%;
+	}
 	header .left img {
 		width: 10%;
 	}
@@ -269,6 +274,7 @@ footer {
 		background-position: 95% 25%;
   		background-size: 400px 400px;
 		height: 70vh;
+		overflow-x: hidden;
 	}
 	.notes {
 		background-position: 98% 30%;
@@ -279,6 +285,12 @@ footer {
 		background-position: 98% 30%;
   		background-size:350px 350px;
 		height: 70vh;
+	}
+	.home .wrapper h1 {
+		width: 700px;
+	}
+	.home .wrapper p {
+		width: 500px;
 	}
 
 }
@@ -319,15 +331,15 @@ footer {
 @media all and  (max-width: 1004px) {
 	.mock .content .wrapper ul .mal {
 		font-size: 35px;
-		width: 100%;
+		width: 200px;
 	}
 	.mock .content .wrapper ul .eng {
 		font-size: 35px;
-		width: 100%;
+		width: 200px;
 		margin-right: 80px;
 	}
 }
-@media all and  (max-width: 800px) {
+@media all and  (max-width: 850px) {
 	header nav ul li a {
 		display: none;
 	}
@@ -421,12 +433,12 @@ footer {
 		margin-left: 50px;
 	}
 }
-@media all and  (max-width: 500px) {
+@media all and  (max-width: 550px) {
 	header nav ul li a {
 		display: none;
 	}
 	.home {
-		height: 70vh;
+		height: 80vh;
 	}
 	.wrapper {
 		margin-left: 25px;
@@ -443,9 +455,12 @@ footer {
 		
 	
 	}
+	.home      .wrapper h1 {
+		width: 450px;
+	}
 	.notes {
 	  background-image: none;
-	  height: 90vh;
+	  height: 110vh;
 	}
 	.notes .wrapper {
 		display: flex;
@@ -500,11 +515,11 @@ footer {
 	}
 	.mock .content .wrapper ul .mal {
 		font-size: 30px;
-		width: 100%;
+		width: 200px;
 	}
 	.mock .content .wrapper ul .eng {
 		font-size: 30px;
-		width: 100%;
+		width: 150px;
 	}
 	.home .wrapper p {
 		font-size: 30px;
@@ -514,8 +529,11 @@ footer {
 	header .left img {
 		width: 20%;
 	}
+	.mock .content .wrapper ul li a {
+		font-size: 25px;
+	}
 	.notes {
-		height: 100vh;
+		height: 150vh;
 	}
 	.home .wrapper h1 {
 		font-size: 70px;
@@ -530,7 +548,13 @@ footer {
 
 	}
 	.home .wrapper p {
-		font-size: 30px;
+		font-size: 20px;
+	}
+	
+}
+@media all and  (max-width: 420px) {
+	.mock {
+		height: 180vh;
 	}
 }
 @media all and  (max-width: 390px) {
@@ -546,7 +570,7 @@ footer {
 		width: 50px;
 	}
 	.notes {
-		height: 120vh;
+		height: 180vh;
 	}
 	.mock .content .wrapper ul .eng {
 		font-size: 25px;
@@ -554,12 +578,12 @@ footer {
 	}
 
 }
-@media all and  (max-width: 320px) {
+@media all and  (max-width:  {
 	.home .wrapper h1 {
-		font-size: 70px;
+		font-size: 20x;
 	}
 	.notes {
-		height: 108vh;
+		height: 180vh;
 	}
 	.mock .content .wrapper ul .mal {
 		font-size: 23px;
