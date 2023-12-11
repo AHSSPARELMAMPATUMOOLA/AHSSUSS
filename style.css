@@ -193,7 +193,7 @@ header nav ul  li a:hover {
 }
 
 .mock {
-	height: 85vh;
+	height: 120vh;
 	width: 100%;
 	overflow-x: hidden;
 	background-color: #8ae0f3;
@@ -202,21 +202,27 @@ header nav ul  li a:hover {
   background-position: 95% 20%;
   background-size: 500px 500px;
 }
-.mock  .content .wrapper {
+.mock  .content .wrapper .content {
 	display: flex;
 	flex-wrap: wrap;
-}
+	
 
+}
+.mock  .content .wrapper ul  {
+	display: flex;
+	
+}
 .mock  .content .wrapper ul li {
 	list-style: none;
 	margin-top: 50px;
+	margin-right: 50px;
 
 }
 .mock  .content .wrapper ul li a {
 	color: rgb(255, 81, 0);
 	background-color: #fffeb8d8;
 	text-decoration: none;
-	padding: 15px;
+	padding: 10px;
 	border: 8px;
 	font-size: 30px;
 	border-radius: 12px;
