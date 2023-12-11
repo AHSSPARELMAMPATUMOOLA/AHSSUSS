@@ -273,7 +273,7 @@ footer {
 	.notes {
 		background-position: 98% 30%;
   		background-size:350px 350px;
-		height: 70vh;
+		height: 80vh;
 	}
 	.mock {
 		background-position: 98% 30%;
@@ -302,7 +302,7 @@ footer {
 	.notes {
 		background-position: 100% 30%;
   		background-size:300px 300px;
-		height: 70vh;
+		height: 80vh;
 	}
 	.mock {
 		background-position: 100% 45%;
@@ -337,7 +337,7 @@ footer {
 	}
 	.notes {
 		background-image: none;
-		height: 90vh;
+		height: 100vh;
 
 	}
 	.notes .wrapper {
@@ -381,6 +381,7 @@ footer {
 	}
 	.notes {
 		background-image: none;
+		height: 105vh;
 	
 	}
 	.notes .left .subjects{
@@ -403,7 +404,7 @@ footer {
 }
 @media all and  (max-width: 775px) {
 	.notes {
-		height: 100vh;
+		height: 105vh;
 	}
 	.mock {
 		background-position: 100% 20%;
@@ -444,7 +445,7 @@ footer {
 	}
 	.notes {
 	  background-image: none;
-	  height: 85vh;
+	  height: 90vh;
 	}
 	.notes .wrapper {
 		display: flex;
@@ -545,7 +546,7 @@ footer {
 		width: 50px;
 	}
 	.notes {
-		height: 110vh;
+		height: 120vh;
 	}
 	.mock .content .wrapper ul .eng {
 		font-size: 25px;
@@ -558,7 +559,7 @@ footer {
 		font-size: 70px;
 	}
 	.notes {
-		height: 100vh;
+		height: 108vh;
 	}
 	.mock .content .wrapper ul .mal {
 		font-size: 23px;
@@ -572,7 +573,7 @@ footer {
 }
 @media all and  (max-width: 310px) {
 	.notes {
-		height: 115vh;
+		height: 118vh;
 	}
 	.mock .content .wrapper ul .mal {
 		font-size: 23px;
