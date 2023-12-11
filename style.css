@@ -223,7 +223,7 @@ header nav ul  li a:hover {
 
 
 }
-.mock  .content .wrapper ul .eng{
+.mock  .content .wrapper  .eng{
 	width: 380px;
 	font-size: 50px;
 	margin-top: 30px;
@@ -233,7 +233,7 @@ header nav ul  li a:hover {
 	margin-right: 30px;
 	padding: 10px;
 }
-.mock  .content .wrapper ul .mal {
+.mock  .content .wrapper  .mal {
 	width: 480px;
 	font-size: 50px;
 	margin-top: 30px;
@@ -542,6 +542,155 @@ footer {
 		font-size: 40px;
 	}
 }
+@media only screen and (max-width: 480px) {
+	
+	.wrapper {
+		margin-left: 5px;
+	}
+	.mock {
+		height: 105vh;
+		width: 100%;
+		overflow-x: hidden;
+		background-image: none;
+		
+	}
+	.mock .wrapper {
+		margin-left: 20px;
+	}
+	.mock .wrapper .content ul .eng {
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+	}
+	.mock .wrapper .content ul .mal {
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+	}
+	
+	
+	header nav ul {
+		display: none;
+	}
+	header .left h1 {
+		font-size: 30px;
+	}
+	
+	.home {
+	
+		height: 60vh;
+		width: 100%;
+	   background-color: #a1eaff;
+	   background-image: none;
+		margin-top: 0;
+		overflow-x: hidden;
+		
+	
+	}
+	.wrapper {
+		width: 100%;
+		margin-left: 20px;
+	}
+	.home .wrapper h1 {
+		font-size: 70px;
+		color: #0057ff;
+	   padding-top: 75px;
+	   animation: animation 1s ;
+	}
+	.notes .wrapper ul li a {
+		color: rgb(255, 81, 0);
+		background-color: #fffeb8d8;
+		text-decoration: none;
+		padding: 15px;
+		border: 8px;
+		font-size: 30px;
+		border-radius: 20px;
+		
+		
+	
+	}
+	.notes .wrapper ul li a:hover {
+		text-decoration: underline;
+		box-shadow: 10px 10px 10px black; 
+	
+	}
+	.notes {
+	
+		height: 120vh;
+		width: 100%;
+	   background-color: #cdf5fd;
+	  background-image: none;
+		margin-top: 0;
+		overflow-x: hidden;
+	
+	}
+	.notes .wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.notes .wrapper ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.notes .left .subjects{
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+		
+	
+	
+	}
+	.notes .left ul li {
+		margin-right: 30px;
+	}
+	.tb {
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+	}
+	.kit {
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+	}
+	.mock .content .wrapper ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.mock .content .wrapper ul li a {
+		margin-right: 30px;
+	}
+	.mock  .content .wrapper  .mal {
+		font-size: 30px;
+		width: 300px;
+	}
+	.mock  .content .wrapper  .eng {
+		font-size: 30px;
+		width: 300px;
+	}
+}
 @media all and  (max-width: 440px) {
 	.home .wrapper h1 {
 		font-size: 50px;
@@ -554,7 +703,7 @@ footer {
 }
 @media all and  (max-width: 420px) {
 	.mock {
-		height: 180vh;
+		height: 80vh;
 	}
 }
 @media all and  (max-width: 390px) {
@@ -570,7 +719,7 @@ footer {
 		width: 50px;
 	}
 	.notes {
-		height: 180vh;
+		height: 120vh;
 	}
 	.mock .content .wrapper ul .eng {
 		font-size: 25px;
@@ -578,23 +727,7 @@ footer {
 	}
 
 }
-@media all and  (max-width:  {
-	.home .wrapper h1 {
-		font-size: 20x;
-	}
-	.notes {
-		height: 180vh;
-	}
-	.mock .content .wrapper ul .mal {
-		font-size: 23px;
-		width: 100%;
-	}
-	.mock .content .wrapper ul .eng {
-		font-size: 25px;
-		width: 200px;
-	}
-	
-}
+
 @media all and  (max-width: 310px) {
 	.notes {
 		height: 118vh;
