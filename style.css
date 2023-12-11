@@ -755,6 +755,12 @@ footer {
 	.home .wrapper p {
 		font-size: 15px;
 	}
+	.notes {
+		height: 170vh;
+	}
+	.mock {
+		height: 150vh;
+	}
 }
 @media all and  (max-width: 300px) {
 	.home .wrapper p {
@@ -771,6 +777,12 @@ footer {
 	.mock .content .wrapper .mal {
 		font-size: 28px;
 		width: 220px;
+	}
+	.notes {
+		height: 170vh;
+	}
+	.mock {
+		height: 150vh;
 	}
 }
 @media all and  (max-width: 290px) {
