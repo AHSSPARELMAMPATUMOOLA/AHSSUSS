@@ -734,7 +734,7 @@ footer {
 
 }
 
-@media all and  (max-width: 340px) {
+@media all and  (max-width: 380px) {
 	.notes {
 		height: 145vh;
 	}
@@ -756,8 +756,28 @@ footer {
 		font-size: 15px;
 	}
 }
+@media all and  (max-width: 300px) {
+	.home .wrapper p {
+		font-size: 15px;
+	}
+	.home .wrapper h1 {
+		font-size: 30px;
 
-
+	}
+	.mock .content .wrapper .eng {
+		font-size: 28px;
+		width: 220px;
+	}
+	.mock .content .wrapper .mal {
+		font-size: 28px;
+		width: 220px;
+	}
+}
+@media all and  (max-width: 290px) {
+	.notes {
+		height: 150vh;
+	}
+}
 
 
 
