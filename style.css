@@ -734,9 +734,12 @@ footer {
 
 }
 
-@media all and  (max-width: 310px) {
+@media all and  (max-width: 340px) {
 	.notes {
-		height: 118vh;
+		height: 145vh;
+	}
+	.mock  {
+		height: 145vh;
 	}
 	.mock .content .wrapper ul .mal {
 		font-size: 23px;
@@ -747,10 +750,10 @@ footer {
 		font-size: 25px;
 	}
 	header .left h1 {
-		font-size: 22px;
+		font-size: 18px;
 	}
 	.home .wrapper p {
-		font-size: 25px;
+		font-size: 15px;
 	}
 }
 
