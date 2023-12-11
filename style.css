@@ -785,12 +785,12 @@ footer {
 		height: 160vh;
 	}
 }
-@media all and  (max-width: 290px) {
+@media all and  (max-width: 300px) {
 	.notes {
-		height: 170vh;
+		height: 210vh;
 	}
 	.mock {
-		height: 150vh;
+		height: 210vh;
 	}
 }
 
