@@ -762,7 +762,7 @@ footer {
 		height: 150vh;
 	}
 }
-@media all and  (max-width: 300px) {
+@media all and  (max-width: 310px) {
 	.home .wrapper p {
 		font-size: 15px;
 	}
@@ -782,7 +782,7 @@ footer {
 		height: 170vh;
 	}
 	.mock {
-		height: 150vh;
+		height: 160vh;
 	}
 }
 @media all and  (max-width: 290px) {
