@@ -285,7 +285,7 @@ footer {
 	.notes {
 		background-position: 98% 30%;
   		background-size:350px 350px;
-		height: 80vh;
+		height: 100vh;
 	}
 	.mock {
 		background-position: 98% 30%;
@@ -320,7 +320,7 @@ footer {
 	.notes {
 		background-position: 100% 30%;
   		background-size:300px 300px;
-		height: 80vh;
+		height: 100vh;
 	}
 	.mock {
 		background-position: 100% 45%;
@@ -355,7 +355,7 @@ footer {
 	}
 	.notes {
 		background-image: none;
-		height: 100vh;
+		height: 110vh;
 
 	}
 	.notes .wrapper {
