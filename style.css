@@ -267,6 +267,9 @@ footer {
 	body {
 		width: 100%;
 	}
+	header {
+		position: sticky;
+	}
 	header .left img {
 		width: 10%;
 	}
@@ -306,6 +309,9 @@ footer {
 	header .left img {
 		width: 10%;
 	}
+	header {
+		position: sticky;
+	}
 	header .left h1 {
 		font-size: 30px;
 	}
@@ -339,6 +345,9 @@ footer {
 		font-size: 35px;
 		width: 200px;
 	}
+	header {
+		position: sticky;
+	}
 	.mock .content .wrapper ul .eng {
 		font-size: 35px;
 		width: 200px;
@@ -348,6 +357,9 @@ footer {
 @media all and  (max-width: 850px) {
 	header nav ul li a {
 		display: none;
+	}
+	header {
+		position: sticky;
 	}
 	.home {
 		background-image: none;
@@ -390,6 +402,9 @@ footer {
 		flex-wrap: wrap;
 
 	}
+	header {
+		position: sticky;
+	}
 	header .left h1 {
 		font-size: 25px;
 	}
@@ -424,6 +439,9 @@ footer {
 	.notes {
 		height: 105vh;
 	}
+	header {
+		position: sticky;
+	}
 	.mock {
 		background-position: 100% 20%;
 	}
@@ -438,6 +456,9 @@ footer {
 	.wrapper {
 		margin-left: 50px;
 	}
+	header {
+		position: sticky;
+	}
 }
 @media all and  (max-width: 550px) {
 	header nav ul li a {
@@ -445,6 +466,9 @@ footer {
 	}
 	.home {
 		height: 80vh;
+	}
+	header {
+		position: sticky;
 	}
 	.wrapper {
 		margin-left: 25px;
@@ -538,6 +562,9 @@ footer {
 	.mock .content .wrapper ul li a {
 		font-size: 25px;
 	}
+	header {
+		position: sticky;
+	}
 	.notes {
 		height: 150vh;
 	}
@@ -559,6 +586,9 @@ footer {
 		overflow-x: hidden;
 		background-image: none;
 		
+	}
+	header {
+		position: sticky;
 	}
 	.mock .wrapper {
 		margin-left: 20px;
@@ -705,11 +735,17 @@ footer {
 	.home .wrapper p {
 		font-size: 20px;
 	}
+	header {
+		position: sticky;
+	}
 	
 }
 @media all and  (max-width: 420px) {
 	.mock {
 		height: 80vh;
+	}
+	header {
+		position: sticky;
 	}
 }
 @media all and  (max-width: 390px) {
@@ -731,6 +767,9 @@ footer {
 		font-size: 25px;
 		width: 200px;
 	}
+	header {
+		position: sticky;
+	}
 
 }
 
@@ -746,6 +785,9 @@ footer {
 		width: 200px;
 	
 }
+	header {
+		position: sticky;
+	}
 	footer h1 {
 		font-size: 25px;
 	}
@@ -790,7 +832,11 @@ footer {
 		height: 215vh;
 	}
 	.mock {
+	
 		height: 225vh;
+	}
+	header {
+		position: sticky;
 	}
 }
 
