@@ -70,7 +70,7 @@ header nav ul  li a:hover {
 	height: 80vh;
 	width: 100%;
    background-color: #a1eaff;
-  background-image: url(images/img4.png);
+  background-image: url(img4.png);
   background-repeat: no-repeat;
   background-position: 86% -20%;
   background-size: 630px 630px;
@@ -111,7 +111,7 @@ header nav ul  li a:hover {
 	height: 110vh;
 	width: 100%;
    background-color: #cdf5fd;
-  background-image: url(images/img1.png);
+  background-image: url(img1.png);
   background-repeat: no-repeat;
   background-position: 95% 10%;
   background-size: 500px 500px;
@@ -197,7 +197,7 @@ header nav ul  li a:hover {
 	width: 100%;
 	overflow-x: hidden;
 	background-color: #8ae0f3;
-	background-image: url(images/img2.png);
+	background-image: url(img2.png);
 	background-repeat: no-repeat;
   background-position: 95% 20%;
   background-size: 500px 500px;
