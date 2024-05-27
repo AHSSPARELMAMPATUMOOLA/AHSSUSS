@@ -1,0 +1,859 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+   
+
+}
+body{
+    overflow-x: hidden;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 100%;
+	height: 120px;
+	top: 0;
+	position: sticky;
+    background-color: #cde8fd;
+	border-bottom: 1px solid rgba(0,0,0, .3);
+
+}
+header .left img {
+	display: block;
+	width: 10%;
+	height: auto;
+	border-radius: 50%;
+    border: 1px solid black;
+	margin-left: 10px;
+
+}
+header .left{
+	display: flex;
+	align-items: center;
+
+}
+header .left h1 {
+	font-style: italics;
+	margin-left: 10px;
+	font-size: 35px;
+
+}
+header nav ul {
+	display: flex;
+	
+	align-items: center;
+
+}
+header nav ul  li{
+	list-style: none;
+	
+	margin-right: 78px;
+}
+header nav ul  li a{
+	color: red;
+	text-decoration: none;
+    font-size: 38px;
+
+}
+header nav ul  li a:hover {
+	box-shadow: 10px 10px 10px black; 
+    
+
+
+}
+.home {
+	
+	height: 80vh;
+	width: 100%;
+   background-color: #a1eaff;
+  background-image: url(images/img4.png);
+  background-repeat: no-repeat;
+  background-position: 86% -20%;
+  background-size: 630px 630px;
+	margin-top: 0;
+	
+
+}
+
+.wrapper {
+    width: 100%;
+    margin-left: 100px;
+}
+.home .wrapper h1 {
+    font-size: 110px;
+    color: #0057ff;
+   padding-top: 75px;
+   animation: animation 1s ;
+  
+
+}
+.home .wrapper p{
+    font-size: 32px;
+    font-style: bold;
+    animation: animation 1s ;
+    margin-top: 20px;
+    
+}
+@keyframes animation {
+    0% {
+        margin-left: -500px;
+    }
+    100% {
+        
+    }
+}
+.notes {
+	
+	height: 110vh;
+	width: 100%;
+   background-color: #cdf5fd;
+  background-image: url(images/img1.png);
+  background-repeat: no-repeat;
+  background-position: 95% 10%;
+  background-size: 500px 500px;
+	margin-top: 0;
+	
+
+}
+.notes .wrapper ul {
+	
+}
+.notes .left .subjects{
+	font-size: 50px;
+	margin-top: 75px;
+	color: rgb(0, 76, 255);
+	border: 1px solid rgb(225, 16, 16);
+	border-radius: 16px;
+	width: 430px;
+	padding: 10px;
+
+
+}
+.notes .wrapper ul li {
+	list-style: none;
+	text-decoration: none;
+	margin-top: 50px;
+	
+}
+
+.notes .wrapper ul li a {
+	color: rgb(255, 81, 0);
+	background-color: #fffeb8d8;
+	text-decoration: none;
+	padding: 15px;
+	border: 8px;
+	font-size: 30px;
+	border-radius: 12px;
+	
+	
+
+}
+.notes .wrapper {
+	display: flex;
+}
+.notes .wrapper ul li a:hover {
+	text-decoration: underline;
+	box-shadow: 10px 10px 10px black; 
+
+}
+.kit {
+	width: 280px;
+	font-size: 50px;
+	margin-top: 75px;
+	color: rgb(0, 76, 255);
+	border: 1px solid rgb(225, 16, 16);
+	border-radius: 16px;
+	margin-left: 30px;
+	padding: 10px;
+}
+.sp li {
+	margin-left: 30px;
+}
+.tb{
+	width: 350px;
+	font-size: 50px;
+	margin-top: 30px;
+	color: rgb(0, 76, 255);
+	border: 1px solid rgb(225, 16, 16);
+	border-radius: 16px;
+	margin-left: 30px;
+	padding: 10px;
+}
+.last   {
+	display: flex;
+	flex-direction: row;
+}
+.last  li {
+	margin-left: 30px;
+
+}
+
+.mock {
+	height: 120vh;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #8ae0f3;
+	background-image: url(images/img2.png);
+	background-repeat: no-repeat;
+  background-position: 95% 20%;
+  background-size: 500px 500px;
+}
+.mock  .content .wrapper .content {
+	display: flex;
+	flex-wrap: wrap;
+	
+
+}
+.mock  .content .wrapper ul  {
+	display: flex;
+	
+}
+.mock  .content .wrapper ul li {
+	list-style: none;
+	margin-top: 50px;
+	margin-right: 50px;
+
+}
+.mock  .content .wrapper ul li a {
+	color: rgb(255, 81, 0);
+	background-color: #fffeb8d8;
+	text-decoration: none;
+	padding: 10px;
+	border: 8px;
+	font-size: 30px;
+	border-radius: 12px;
+
+
+}
+.mock  .content .wrapper  .eng{
+	width: 380px;
+	font-size: 50px;
+	margin-top: 30px;
+	color: rgb(0, 76, 255);
+	border: 1px solid rgb(225, 16, 16);
+	border-radius: 16px;
+	margin-right: 30px;
+	padding: 10px;
+}
+.mock  .content .wrapper  .mal {
+	width: 480px;
+	font-size: 50px;
+	margin-top: 30px;
+	color: rgb(0, 76, 255);
+	border: 1px solid rgb(225, 16, 16);
+	border-radius: 16px;
+	padding: 10px;
+}
+
+.mock .wrapper ul li a:hover {
+	text-decoration: underline;
+	box-shadow: 10px 10px 10px black; 
+
+}
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+}
+
+
+@media all and  (max-width: 1350px) {
+	body {
+		width: 100%;
+	}
+	header {
+		position: sticky;
+	}
+	header .left img {
+		width: 10%;
+	}
+	header .left h1 {
+		font-size: 30px;
+	}
+	header nav ul li {
+		margin-right: 30px;
+	}
+	.home {
+		background-position: 95% 25%;
+  		background-size: 400px 400px;
+		height: 70vh;
+		overflow-x: hidden;
+	}
+	.notes {
+		background-position: 98% 30%;
+  		background-size:350px 350px;
+		height: 100vh;
+	}
+	.mock {
+		background-position: 98% 30%;
+  		background-size:350px 350px;
+		height: 70vh;
+	}
+	.home .wrapper h1 {
+		width: 700px;
+	}
+	.home .wrapper p {
+		width: 500px;
+	}
+
+}
+
+ 
+@media all and  (max-width: 1024px) {
+	header .left img {
+		width: 10%;
+	}
+	header {
+		position: sticky;
+	}
+	header .left h1 {
+		font-size: 30px;
+	}
+	header nav ul li {
+		margin-right: 30px;
+	}
+	.home {
+		background-position: 100% 25%;
+  		background-size: 400px 400px;
+		height: 70vh;
+	}
+	.notes {
+		background-position: 100% 30%;
+  		background-size:300px 300px;
+		height: 100vh;
+	}
+	.mock {
+		background-position: 100% 45%;
+  		background-size:300px 300px;
+		height: 70vh;
+	}
+	.home .wrapper h1 {
+		font-size: 90px;
+	}
+	.home .wrapper p {
+		font-size: 28px;
+	}
+}
+@media all and  (max-width: 1004px) {
+	.mock .content .wrapper ul .mal {
+		font-size: 35px;
+		width: 200px;
+	}
+	header {
+		position: sticky;
+	}
+	.mock .content .wrapper ul .eng {
+		font-size: 35px;
+		width: 200px;
+		margin-right: 80px;
+	}
+}
+@media all and  (max-width: 850px) {
+	header nav ul li a {
+		display: none;
+	}
+	header {
+		position: sticky;
+	}
+	.home {
+		background-image: none;
+		height: 50vh;
+	}
+	.notes {
+		background-image: none;
+		height: 110vh;
+
+	}
+	.notes .wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.notes .wrapper ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.notes .left ul li {
+		margin-right: 30px;
+	}
+	.tb, .kit {
+		margin-left: 1px;
+	}
+	.notes .wrapper ul li a {
+		margin-left: 1px;
+	}
+	.mock {
+		height: 115vh;
+		background-position: 95% 20%;
+  		background-size:300px 300px;
+	}
+
+}
+
+@media all and  (max-width: 768px){
+	.notes .wrapper ul {
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	header {
+		position: sticky;
+	}
+	header .left h1 {
+		font-size: 25px;
+	}
+	.home {
+		background-image: none;
+		height: 60vh;
+	}
+	.notes {
+		background-image: none;
+		height: 105vh;
+	
+	}
+	.notes .left .subjects{
+		font-size: 30px;
+		margin-top: 75px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 220px;
+		padding: 10px;
+	
+	
+	}
+	.mock {
+		height: 120vh;
+		background-position: 100% 35%;
+  		background-size:300px 300px;
+	}
+
+}
+@media all and  (max-width: 775px) {
+	.notes {
+		height: 105vh;
+	}
+	header {
+		position: sticky;
+	}
+	.mock {
+		background-position: 100% 20%;
+	}
+	.notes .wrapper ul li a {
+		margin-right: 30px;
+	}
+}
+@media all and  (max-width: 680px) {
+	.home .wrapper h1 {
+		font-size: 80px;
+	}
+	.wrapper {
+		margin-left: 50px;
+	}
+	header {
+		position: sticky;
+	}
+}
+@media all and  (max-width: 550px) {
+	header nav ul li a {
+		display: none;
+	}
+	.home {
+		height: 80vh;
+	}
+	header {
+		position: sticky;
+	}
+	.wrapper {
+		margin-left: 25px;
+	}
+	.notes .wrapper ul li a {
+		color: rgb(255, 81, 0);
+		background-color: #fffeb8d8;
+		text-decoration: none;
+		padding: 15px;
+		border: 8px;
+		font-size: 30px;
+		border-radius: 20px;
+		
+		
+	
+	}
+	.home      .wrapper h1 {
+		width: 450px;
+	}
+	.notes {
+	  background-image: none;
+	  height: 110vh;
+	}
+	.notes .wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.notes .wrapper ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.notes .left .subjects{
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+		
+	
+	
+	}
+	.notes .left ul li {
+		margin-right: 30px;
+	}
+	.tb {
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+		margin-left: 1px;
+	}
+	.kit {
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+		margin-left: 1px;
+	}
+	.right ul li {
+		margin-left: 1px;
+		margin-right: 10px;
+	}
+	.mock {
+		background-image: none;
+	}
+	.mock .content .wrapper ul .mal {
+		font-size: 30px;
+		width: 200px;
+	}
+	.mock .content .wrapper ul .eng {
+		font-size: 30px;
+		width: 150px;
+	}
+	.home .wrapper p {
+		font-size: 30px;
+	}
+}
+@media all and  (max-width: 500px) {
+	header .left img {
+		width: 20%;
+	}
+	.mock .content .wrapper ul li a {
+		font-size: 25px;
+	}
+	header {
+		position: sticky;
+	}
+	.notes {
+		height: 150vh;
+	}
+	.home .wrapper h1 {
+		font-size: 70px;
+	}
+	.home .wrapper p {
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	
+	.wrapper {
+		margin-left: 5px;
+	}
+	.mock {
+		height: 105vh;
+		width: 100%;
+		overflow-x: hidden;
+		background-image: none;
+		
+	}
+	header {
+		position: sticky;
+	}
+	.mock .wrapper {
+		margin-left: 20px;
+	}
+	.mock .wrapper .content ul .eng {
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+	}
+	.mock .wrapper .content ul .mal {
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+	}
+	
+	
+	header nav ul {
+		display: none;
+	}
+	header .left h1 {
+		font-size: 30px;
+	}
+	
+	.home {
+	
+		height: 60vh;
+		width: 100%;
+	   background-color: #a1eaff;
+	   background-image: none;
+		margin-top: 0;
+		overflow-x: hidden;
+		
+	
+	}
+	.wrapper {
+		width: 100%;
+		margin-left: 20px;
+	}
+	.home .wrapper h1 {
+		font-size: 70px;
+		color: #0057ff;
+	   padding-top: 75px;
+	   animation: animation 1s ;
+	}
+	.notes .wrapper ul li a {
+		color: rgb(255, 81, 0);
+		background-color: #fffeb8d8;
+		text-decoration: none;
+		padding: 15px;
+		border: 8px;
+		font-size: 30px;
+		border-radius: 20px;
+		
+		
+	
+	}
+	.notes .wrapper ul li a:hover {
+		text-decoration: underline;
+		box-shadow: 10px 10px 10px black; 
+	
+	}
+	.notes {
+	
+		height: 120vh;
+		width: 100%;
+	   background-color: #cdf5fd;
+	  background-image: none;
+		margin-top: 0;
+		overflow-x: hidden;
+	
+	}
+	.notes .wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.notes .wrapper ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.notes .left .subjects{
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+		
+	
+	
+	}
+	.notes .left ul li {
+		margin-right: 30px;
+	}
+	.tb {
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+	}
+	.kit {
+		font-size: 30px;
+		margin-top: 40px;
+		color: rgb(0, 76, 255);
+		border: 1px solid rgb(225, 16, 16);
+		border-radius: 16px;
+		width: 180px;
+		padding: 10px;
+	}
+	.mock .content .wrapper ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.mock .content .wrapper ul li a {
+		margin-right: 30px;
+	}
+	.mock  .content .wrapper  .mal {
+		font-size: 30px;
+		width: 300px;
+	}
+	.mock  .content .wrapper  .eng {
+		font-size: 30px;
+		width: 300px;
+	}
+}
+@media all and  (max-width: 440px) {
+	.home .wrapper h1 {
+		font-size: 50px;
+
+	}
+	.home .wrapper p {
+		font-size: 20px;
+	}
+	header {
+		position: sticky;
+	}
+	
+}
+@media all and  (max-width: 420px) {
+	.mock {
+		height: 80vh;
+	}
+	header {
+		position: sticky;
+	}
+}
+@media all and  (max-width: 390px) {
+	.mock .content .wrapper ul .mal {
+		font-size: 27px;
+		width: 100%;
+	}
+	.mock .content .wrapper ul .eng {
+		font-size: 27px;
+		width: 100%;
+	}
+	header .left img {
+		width: 50px;
+	}
+	.notes {
+		height: 120vh;
+	}
+	.mock .content .wrapper ul .eng {
+		font-size: 25px;
+		width: 200px;
+	}
+	header {
+		position: sticky;
+	}
+
+}
+
+@media all and  (max-width: 380px) {
+	.notes {
+		height: 145vh;
+	}
+	.mock  {
+		height: 145vh;
+	}
+	.mock .content .wrapper ul .mal {
+		font-size: 23px;
+		width: 200px;
+	
+}
+	header {
+		position: sticky;
+	}
+	footer h1 {
+		font-size: 25px;
+	}
+	header .left h1 {
+		font-size: 18px;
+	}
+	.home .wrapper p {
+		font-size: 15px;
+	}
+	.notes {
+		height: 170vh;
+	}
+	.mock {
+		height: 150vh;
+	}
+}
+@media all and  (max-width: 310px) {
+	.home .wrapper p {
+		font-size: 15px;
+	}
+	.home .wrapper h1 {
+		font-size: 30px;
+
+	}
+	.mock .content .wrapper .eng {
+		font-size: 28px;
+		width: 220px;
+	}
+	.mock .content .wrapper .mal {
+		font-size: 28px;
+		width: 220px;
+	}
+	.notes {
+		height: 170vh;
+	}
+	.mock {
+		height: 160vh;
+	}
+}
+@media all and  (max-width: 300px) {
+	.notes {
+		height: 215vh;
+	}
+	.mock {
+	
+		height: 225vh;
+	}
+	header {
+		position: sticky;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
